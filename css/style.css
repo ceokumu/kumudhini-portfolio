@@ -338,7 +338,7 @@ border-radius: 50%;
 #left-column{
     display: flex;
     flex-direction: column;
-    align-items:last baseline;
+    align-items: baseline;
     justify-content: left;
 }
 #avatar{
@@ -379,13 +379,13 @@ border-radius: 50%;
     flex-direction: column;
     align-items:last baseline;
     justify-content:center;
-    padding:0 1em;
+    padding:0;
 }
 #stats ul{
     list-style:circle;
 }
 #stats ul li{
-    margin: 0.5em 0;
+    margin: 0;
     font-size: var(--ABOUT-FSIZE);
 }
 #stats h4{
