@@ -379,7 +379,8 @@ border-radius: 50%;
     flex-direction: column;
     align-items:last baseline;
     justify-content:center;
-    padding:0 1em;
+    padding:0;
+    padding-left:0.5em;
 }
 #stats ul{
     list-style:circle;
@@ -773,7 +774,7 @@ aside ul li{
 #services .headingS{
     display:inline-block;
    text-align: center;
-    padding:1em;
+    padding:0.5em;
     font-size:var(--SECTION-HEADINGFF);
     color:var(--LINKS-COLOR);
     font-family: sans-serif;
@@ -786,7 +787,7 @@ aside ul li{
         bottom:-2px;
         width:100%;
         height:4px;
-        background: linear-gradient(to right,rgb(255, 255, 255),rgb(0, 30, 128),rgb(168, 8, 115),rgb(128, 0, 107),rgb(255, 255, 255));
+        background: linear-gradient(to right,rgb(255, 255, 255),rgb(0, 30, 128),rgb(14, 144, 196)),rgb(255, 255, 255);
         background-size: 150% 200%;
         animation: goAnimB 1s ease infinite  forwards;
     }
@@ -1127,6 +1128,9 @@ footer a{
     .service-title{
         width:8rem;
         height: 8rem;
+    }
+    .services-wrapper .headingS{
+        padding:1.3em;
     }
     #blog{
 align-items:normal;
